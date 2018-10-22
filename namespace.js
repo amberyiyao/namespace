@@ -1,4 +1,4 @@
-var zhou0160 = {
+var ZHOU0160 = {
     init:function init() {
         let Div = document.createElement("div");
         Div.className = "box";
