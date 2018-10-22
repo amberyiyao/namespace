@@ -1,8 +1,5 @@
-document.addEventListener("DOMContentLoaded", init);
-
-
 var zhou0160 = {
-    start: function init() {
+    init:function init() {
         let Div = document.createElement("div");
         Div.className = "box";
         Div.textContent = "zhou0160";
