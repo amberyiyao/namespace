@@ -1,4 +1,3 @@
-document.addEventListener("DOMContentLoaded", ZHOU0160.init);
 
 var ZHOU0160 = {
     init: function () {
@@ -25,4 +24,6 @@ var ZHOU0160 = {
         e.target.classList.toggle("highlight");
         e.target.removeAttribute('style');
     }
-}
+};
+
+document.addEventListener("DOMContentLoaded", ZHOU0160.init);
