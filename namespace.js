@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", ZHOU0160.init);
+
 
 var ZHOU0160 = {
     init: function () {
@@ -26,4 +28,4 @@ var ZHOU0160 = {
     }
 };
 
-document.addEventListener("DOMContentLoaded", ZHOU0160.init);
+  
