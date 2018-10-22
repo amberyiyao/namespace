@@ -15,20 +15,14 @@ var ZHOU0160 = {
     circleClick: function () {
         this.style.borderColor = "#53e6c2";
         this.style.backgroundColor = "#ea9492";
-        console.log(this);
     },
 
     mouseOver: function (e) {
         e.target.classList.toggle("highlight");
-        console.log(e);
-        console.log(e.target);
     },
 
     mouseOut: function (e) {
         e.target.classList.toggle("highlight");
         e.target.removeAttribute('style');
-        console.log(e);
-        console.log(e.target);
-
     }
 }
