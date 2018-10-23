@@ -1,6 +1,3 @@
-document.addEventListener("DOMContentLoaded", ZHOU0160.init);
-
-
 var ZHOU0160 = {
     init: function () {
         let Div = document.createElement("div");
