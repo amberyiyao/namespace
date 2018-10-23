@@ -1,5 +1,5 @@
 var ZHOU0160 = {
-    init: function () {
+    init: function init() {
         let Div = document.createElement("div");
         Div.className = "box";
         Div.textContent = "zhou0160";
