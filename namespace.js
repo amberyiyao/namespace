@@ -1,6 +1,6 @@
 var ZHOU0160 = {
     init: function init() {
-        let Div = document.createElement("div");
+        var Div = document.createElement("div");
         Div.className = "box";
         Div.textContent = "zhou0160";
         document.getElementById("boxes").appendChild(Div);
@@ -13,6 +13,7 @@ var ZHOU0160 = {
     circleClick: function () {
         this.style.borderColor = "#53e6c2";
         this.style.backgroundColor = "#ea9492";
+        document.querySelector("div").textContent = "Thanks for clicking me!! ";
     },
 
     mouseOver: function (e) {
@@ -24,5 +25,3 @@ var ZHOU0160 = {
         e.target.removeAttribute('style');
     }
 };
-
-  
