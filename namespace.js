@@ -1,6 +1,6 @@
 var ZHOU0160 = {
     init: function init() {
-        var Div = document.createElement("div");
+        let Div = document.createElement("div");
         Div.className = "box";
         Div.textContent = "zhou0160";
         document.getElementById("boxes").appendChild(Div);
