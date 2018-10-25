@@ -12,6 +12,7 @@ var ZHOU0160 = {
         function cursorClick() {
             this.style.borderColor = "#53e6c2";
             this.style.backgroundColor = "#ea9492";
+            this.textContent = "Thanks for clicking me!!";
         }
 
         function mouseOver(e) {
@@ -21,6 +22,7 @@ var ZHOU0160 = {
         function mouseOut(e) {
             e.target.classList.toggle("highlight");
             e.target.removeAttribute('style');
+            e.target.textContent = "zhou0160";
         }
     }
 };
