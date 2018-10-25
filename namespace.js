@@ -22,7 +22,7 @@ var ZHOU0160 = {
         function mouseOut(e) {
             e.target.classList.toggle("highlight");
             e.target.removeAttribute('style');
-            e.textContent = "zhou0160";
+            this.textContent = "zhou0160";
         }
     }
 };
