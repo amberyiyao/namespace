@@ -5,12 +5,12 @@ var ZHOU0160 = {
         Div.textContent = "zhou0160";
         document.getElementById("boxes").appendChild(Div);
 
-        Div.addEventListener("click", ZHOU0160.circleClick);
+        Div.addEventListener("click", ZHOU0160.cursorClick);
         Div.addEventListener("mouseover", ZHOU0160.mouseOver);
         Div.addEventListener("mouseout", ZHOU0160.mouseOut);
     },
 
-    circleClick: function () {
+    cursorClick: function () {
         this.style.borderColor = "#53e6c2";
         this.style.backgroundColor = "#ea9492";
     },
