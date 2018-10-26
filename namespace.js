@@ -13,7 +13,6 @@ var ZHOU0160 = {
             this.style.borderColor = "#53e6c2";
             this.style.backgroundColor = "#ea9492";
             this.textContent = "Thanks for clicking me!!";
-            this.style.border-radius= "50%";
         }
 
         function mouseOver(e) {
